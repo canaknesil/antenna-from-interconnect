@@ -2,4 +2,4 @@
 
 Source code associated to the following research paper:
 
-Can Aknesil, Elena Dubrova, Niklas Lindskog and Håkan Englund. "Is Your FPGA Transmitting Secrets: Covert Antennas from Interconnect". Submitted to 30th Reconfigurable Architectures Workshop (RAW 2023). Forthcoming.
+Can Aknesil, Elena Dubrova, Niklas Lindskog and Håkan Englund. "Is Your FPGA Transmitting Secrets: Covert Antennas from Interconnect". 2023 IEEE International Parallel and Distributed Processing Symposium Workshops (IPDPSW). 2023.
