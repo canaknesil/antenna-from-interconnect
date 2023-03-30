@@ -21,9 +21,12 @@
 # SOFTWARE.
 
 
-set workdir "~/Documents/repos/fpga-antenna-data/routing-resources"
-set used_nodes_fname "$workdir/used_nodes"
-set top_obj MONOPOLE
+# Generally takes several seconds to run.
+
+
+set workdir "/path/to/working/directory"
+set used_nodes_fname "$workdir/routing_resources_used_nodes_monopole_200.txt"
+set top_obj antenna_top/MONOPOLE
 
 
 set nodes [get_nodes -of_objects [get_nets "$top_obj/*"]]

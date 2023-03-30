@@ -93,8 +93,8 @@ plotting_range() = range(ceil(Int, initial_plotting_start * sampling_freq),
 # noise_treshold_over_mean_noise = 2.9
 
 # Monopole 200 lines
-# barker_threshold_rate = 56 / 169
-# noise_treshold_over_mean_noise = 4.5
+barker_threshold_rate = 56 / 169
+noise_treshold_over_mean_noise = 4.5
 
 # Monopole 200 lines - half length
 # barker_threshold_rate = 100 / 169
@@ -145,8 +145,8 @@ plotting_range() = range(ceil(Int, initial_plotting_start * sampling_freq),
 # noise_treshold_over_mean_noise = 4.1
 
 # Loop 25 loops
-barker_threshold_rate = 42 / 169
-noise_treshold_over_mean_noise = 3.6
+# barker_threshold_rate = 42 / 169
+# noise_treshold_over_mean_noise = 3.6
 
 filter_noise = 5000
 
@@ -540,9 +540,9 @@ correct_bits = decoded[1+length(syncword):end]
 if size(bits, 2) > 0
     n_wrong_bits = sum(broadcast(!=, correct_bits, bits))
     bit_error_rate = n_wrong_bits / length(bits)
-    println("Bit Error Rate: $bit_error_rate ($n_wrong_bits / $(length(bits)))") # 0.5 is random bits
+    println("Bit Error Ratio: $bit_error_rate ($n_wrong_bits / $(length(bits)))") # 0.5 is random bits
 else
-    println("Bit Error Rate: N/A")
+    println("Bit Error Ratio: N/A")
 end
 
 

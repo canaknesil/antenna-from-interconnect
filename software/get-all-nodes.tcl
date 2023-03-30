@@ -26,8 +26,8 @@
 # Generates a file of size 27.2 MB
 
 
-set workdir "~/Desktop/work/antenna-resource-usage"
-set all_nodes_fname "$workdir/all_nodes"
+set workdir "/path/to/working/directory"
+set all_nodes_fname "$workdir/routing_resources_all_nodes.txt"
 
 
 set all_nodes [get_nodes]
