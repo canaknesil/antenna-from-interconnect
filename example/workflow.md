@@ -40,7 +40,7 @@ level HDL file is not provided in this repository. Example Vivado
 projects for the FPGA board used in our experiments (CW305) can be
 found in ChipWhisperer codebase.
 
-Port descriptions of the entity `antenna_top`:  
+Port descriptions of the entity `antenna_top` are as follows.  
 input port `reset`: Disconnects the antenna when high. Can be assigned to a switch to visually observe the effect of the antenna on the oscilloscope display.  
 input port `clk`: Not used. Can be set to the same signal as `antenna_clk`  
 input port `antenna_clk`: Clock for the transmitter and the flip-flop antenna, 160 MHz.  
